@@ -4,21 +4,21 @@
   "_schemaVersion": 6,
   "_lastMCVersionId": 765,
   "generalSettings": {
-    "detectATLauncherInstance": true,
-    "detectCurseManifest": true,
-    "detectMultiMCManifest": true,
-    "detectMCUpdaterInstance": true,
-    "detectTechnicPack": true,
-    "detectModrinthPack": true,
-    "detectBiomeData": true,
-    "detectDimensionData": true,
-    "detectWorldData": true,
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "detectModrinthPack": false,
+    "detectBiomeData": false,
+    "detectDimensionData": false,
+    "detectWorldData": false,
     "clientId": "450485984333660181",
     "defaultIcon": "grass",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
-    "resetTimeOnInit": false,
+    "resetTimeOnInit": true,
     "autoRegister": false
   },
   "biomeSettings": {
@@ -39,11 +39,11 @@
   },
   "serverSettings": {
     "fallbackServerIcon": "default",
-    "fallbackServerName": "Minecraft Server",
-    "fallbackServerMotd": "A Minecraft Server",
+    "fallbackServerName": "lagata smp",
+    "fallbackServerMotd": "",
     "serverData": {
       "default": {
-        "textOverride": "Playing on {server.motd.raw}"
+        "textOverride": "Playing on the lagata smp"
       }
     }
   },
@@ -156,24 +156,25 @@
   "displaySettings": {
     "presenceData": {
       "enabled": true,
-      "useAsMain": false,
-      "details": "{getFirst(menu.message, dimension.message)}",
-      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
-      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
-      "largeImageText": "{getFirst(menu.message, dimension.message)}",
-      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
-      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "useAsMain": true,
+      "details": "Playing on lagata.cat",
+      "gameState": "",
+      "largeImageKey": "https://lagata.cat/assets/img/logo.png",
+      "largeImageText": "lagata.cat",
+      "smallImageKey": "",
+      "smallImageText": "",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
         "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
+          "label": "Visit Website",
+          "url": "https://lagata.cat"
         }
       }
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
+	  "lagata": "https://lagata.cat/assets/img/logo.png"
       "charleyeta": "https://mc-heads.net/avatar/3671c55b5bfe40eebb14b3e5d88f3556"
     },
     "dynamicVariables": {
